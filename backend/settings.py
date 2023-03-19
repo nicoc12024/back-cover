@@ -29,6 +29,9 @@ SECRET_KEY = 'django-insecure-@-0$8(n4l!frvac&tqoeg+$00jd@l+41$=(w8+=%e-zkcb0*cs
 DEBUG = True
 
 ALLOWED_HOSTS = ["*"]
+CORS_ALLOWED_ORIGINS = [
+    "https://your-frontend-app-name.herokuapp.com",
+]
 
 
 # Application definition
